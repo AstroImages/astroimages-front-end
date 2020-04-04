@@ -1,34 +1,22 @@
 // in src/App.js
 import React from 'react';
-// import { Admin } from 'react-admin';
-const { Admin } = require('react-admin');
 
+import jsonServerProvider from 'ra-data-json-server';
 
-const dataProvider = 
-  {
-    "id": 2,
-    "name": "Ervin Howell",
-    "username": "Antonette",
-    "email": "Shanna@melissa.tv",
-    "address": {
-      "street": "Victor Plains",
-      "suite": "Suite 879",
-      "city": "Wisokyburgh",
-      "zipcode": "90566-7771",
-      "geo": {
-        "lat": "-43.9509",
-        "lng": "-34.4618"
-      }
-    },
-    "phone": "010-692-6593 x09125",
-    "website": "anastasia.net",
-    "company": {
-      "name": "Deckow-Crist",
-      "catchPhrase": "Proactive didactic contingency",
-      "bs": "synergize scalable supply-chains"
-    }
-  };
+import PostIcon from '@material-ui/icons/Book';
+import UserIcon from '@material-ui/icons/Group';
+import Dashboard from './Dashboard';
+const { Admin, Resource } = require('react-admin');
+const { UserList } = require('./users');
+const { PostList, PostEdit, PostCreate } = require('./posts');
 
-const App = () => <Admin dataProvider={dataProvider} />;
+const  dataProvider  = jsonServerProvider('https://jsonplaceholder.typicode.com');
+
+const App = () => (
+  <Admin dashboard={Dashboard} dataProvider={dataProvider}>
+      <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon}/>
+      <Resource name="users" list={UserList} icon={UserIcon}/>
+  </Admin>
+);
 
 export default App;
