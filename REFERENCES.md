@@ -15,3 +15,8 @@
 
 - https://blog.logrocket.com/admin-panel-with-react/
 - https://github.com/marmelab/react-admin
+
+
+## CICD
+
+- https://hackernoon.com/netlify-continuous-deployment-github-react-lambdaschool-67f3ae658d31
