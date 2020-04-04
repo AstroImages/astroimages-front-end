@@ -1,4 +1,4 @@
-![Logo](ASTROIMAGES-API.png)
+![Logo](ASTROIMAGES-FE.png)
 
 AstroImages Front End (astroimages-front-end)
 =================================
