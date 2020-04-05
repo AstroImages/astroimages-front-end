@@ -13,7 +13,7 @@ const { PostList, PostEdit, PostCreate } = require('./posts');
 const  dataProvider  = jsonServerProvider('https://jsonplaceholder.typicode.com');
 
 const App = () => (
-  <Admin dashboard={Dashboard} dataProvider={dataProvider}>
+  <Admin dashboard={Dashboard} title="AstroImages" dataProvider={dataProvider}>
       <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon}/>
       <Resource name="users" list={UserList} icon={UserIcon}/>
   </Admin>
