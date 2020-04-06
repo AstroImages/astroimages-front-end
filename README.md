@@ -6,13 +6,17 @@ AstroImages Front End (astroimages-front-end)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 
-[![Netlify - STAGING](https://api.netlify.com/api/v1/badges/67a95361-0d97-4767-a8bd-22e9276608cc/deploy-status)](https://app.netlify.com/sites/astroimages-staging/deploys)
 
-[![Netlify - DEV](https://api.netlify.com/api/v1/badges/7422aca3-e85f-43c0-9ae5-7fc4452c936c/deploy-status)](https://app.netlify.com/sites/astroimages-dev/deploys)
+## Workflows
 
+![Production workflow](https://github.com/AstroImages/astroimages-front-end/workflows/Production%20workflow/badge.svg)
+![Staging workflow](https://github.com/AstroImages/astroimages-front-end/workflows/Staging%20workflow/badge.svg)
+![Test workflow](https://github.com/AstroImages/astroimages-front-end/workflows/Test%20workflow/badge.svg)
+![Development workflow](https://github.com/AstroImages/astroimages-front-end/workflows/Development%20workflow/badge.svg)
 
 Front end for AstroImages-API
 
+## [Live Version @ netlify](https://astroimages.netlify.com/)
 
 
 ## Author
@@ -39,4 +43,9 @@ Give a ⭐️ if this project helped you!
 License
 -------
 
+<<<<<<< HEAD
 Astroimages-api is released under the [MIT License](LICENSE).
+=======
+Astroimages-front-end is released under the [MIT License](LICENSE).
+
+>>>>>>> d510c66d9427b63333c2f9f5c9c62438d995ba9b
