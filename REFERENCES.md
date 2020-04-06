@@ -20,3 +20,4 @@
 ## CICD
 
 - https://hackernoon.com/netlify-continuous-deployment-github-react-lambdaschool-67f3ae658d31
+- https://medium.com/@MarekPukaj/build-with-github-actions-host-on-netlify-ebf5fa505616
