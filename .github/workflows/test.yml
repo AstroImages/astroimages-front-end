@@ -14,10 +14,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      # - name: Cypress run
-      #   uses: cypress-io/github-action@v1
-      #   with:
-      #     build: npm run build
-      #     start: npm start
-      #     wait-on: http://localhost:3000
-      #     browser: chrome
+      - name: Cypress run
+        uses: cypress-io/github-action@v1
+        with:
+          build: npm run build
+          start: npm start
+          wait-on: http://localhost:3000
+          browser: chrome
