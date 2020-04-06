@@ -2,8 +2,7 @@ name: Development workflow
 
 on:
   push:
-    branches:
-      - dev
+    branches: [ master ]
 
 jobs:
   deploy:
