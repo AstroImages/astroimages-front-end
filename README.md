@@ -43,9 +43,4 @@ Give a ⭐️ if this project helped you!
 License
 -------
 
-<<<<<<< HEAD
-Astroimages-api is released under the [MIT License](LICENSE).
-=======
 Astroimages-front-end is released under the [MIT License](LICENSE).
-
->>>>>>> d510c66d9427b63333c2f9f5c9c62438d995ba9b
