@@ -7,7 +7,6 @@ import PostIcon from '@material-ui/icons/Book';
 import UserIcon from '@material-ui/icons/Group';
 import Dashboard from './Dashboard';
 
-import { Layout } from './layout';
 import englishMessages from './i18n/en';
 import polyglotI18nProvider from 'ra-i18n-polyglot';
 
