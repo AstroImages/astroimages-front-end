@@ -28,21 +28,21 @@ const i18nProvider = polyglotI18nProvider(locale => {
 
 
 const App = () => (
-  // <Admin dashboard={Dashboard} title="AstroImages" dataProvider={dataProvider}>
-  //     <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon}/>
-  //     <Resource name="users" list={UserList} icon={UserIcon}/>
-  // </Admin>
-
-  <Admin
-  title=""
-  dataProvider={dataProvider}
-  dashboard={Dashboard}
-  layout={Layout}
-  i18nProvider={i18nProvider}
-  >
-  <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon}/>
-  <Resource name="users" list={UserList} icon={UserIcon}/>
+  <Admin dashboard={Dashboard} title="AstroImages" dataProvider={dataProvider}>
+      <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon}/>
+      <Resource name="users" list={UserList} icon={UserIcon}/>
   </Admin>
+
+  // <Admin
+  // title=""
+  // dataProvider={dataProvider}
+  // dashboard={Dashboard}
+  // layout={Layout}
+  // i18nProvider={i18nProvider}
+  // >
+  // <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon}/>
+  // <Resource name="users" list={UserList} icon={UserIcon}/>
+  // </Admin>
 
 );
 

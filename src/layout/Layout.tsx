@@ -1,8 +1,9 @@
 import React from 'react';
-import { Layout, Sidebar } from 'react-admin';
 import AppBar from './AppBar';
 import Menu from './Menu';
 import { lightTheme } from './themes';
+
+const { Layout, Sidebar } = require('react-admin');
 
 const CustomSidebar = (props: any) => <Sidebar {...props} size={200} />;
 

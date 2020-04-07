@@ -22,6 +22,8 @@
     "prop-types": "^15.7.2",
     "ra-data-json-server": "^3.4.0",
     "ra-i18n-polyglot": "^3.4.0",
+    "ra-language-english": "^3.4.0",
+    "ra-language-french": "^3.4.0",
     "react": "^16.13.1",
     "react-admin": "^3.4.0",
     "react-dom": "^16.13.1",

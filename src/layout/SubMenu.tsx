@@ -8,7 +8,7 @@ import Divider from '@material-ui/core/Divider';
 import Collapse from '@material-ui/core/Collapse';
 import Tooltip from '@material-ui/core/Tooltip';
 import { makeStyles } from '@material-ui/core/styles';
-import { useTranslate } from 'react-admin';
+const { useTranslate } = require('react-admin');
 
 const useStyles = makeStyles(theme => ({
     icon: { minWidth: theme.spacing(5) },
